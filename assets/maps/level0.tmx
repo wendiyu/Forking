@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" backgroundcolor="#00000000" nextobjectid="86">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" backgroundcolor="#00000000" nextobjectid="104">
  <tileset firstgid="1" name="desert" tilewidth="1280" tileheight="960" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="1">
@@ -102,22 +102,6 @@
   <object id="5" gid="32" x="3840" y="896" width="1280" height="960"/>
   <object id="6" gid="32" x="5120" y="896" width="1280" height="960"/>
   <object id="63" gid="32" x="0" y="896" width="1280" height="960"/>
-  <object id="68" gid="24" x="128" y="1280" width="128" height="128"/>
-  <object id="69" gid="24" x="256" y="1280" width="128" height="128"/>
-  <object id="70" gid="24" x="384" y="1280" width="128" height="128"/>
-  <object id="71" gid="24" x="512" y="1280" width="128" height="128"/>
-  <object id="72" gid="20" x="128" y="1152" width="128" height="128"/>
-  <object id="73" gid="20" x="256" y="1152" width="128" height="128"/>
-  <object id="74" gid="20" x="384" y="1152" width="128" height="128"/>
-  <object id="75" gid="20" x="512" y="1152" width="128" height="128"/>
-  <object id="76" gid="25" x="128" y="1024" width="128" height="128"/>
-  <object id="77" gid="25" x="256" y="1024" width="128" height="128"/>
-  <object id="78" gid="25" x="384" y="1024" width="128" height="128"/>
-  <object id="79" gid="25" x="512" y="1024" width="128" height="128"/>
-  <object id="81" gid="18" x="128" y="896" width="128" height="128"/>
-  <object id="82" gid="16" x="256" y="896" width="128" height="128"/>
-  <object id="83" gid="17" x="384" y="896" width="128" height="128"/>
-  <object id="85" gid="18" x="512" y="896" width="128" height="128"/>
  </objectgroup>
  <objectgroup name="middleground" visible="0"/>
  <objectgroup name="forground">
@@ -125,5 +109,23 @@
   <object id="65" gid="19" x="0" y="1152" width="128" height="128"/>
   <object id="66" gid="19" x="0" y="1024" width="128" height="128"/>
   <object id="67" gid="16" x="0" y="896" width="128" height="128"/>
+  <object id="86" gid="24" x="128" y="1280" width="128" height="128"/>
+  <object id="87" gid="24" x="256" y="1280" width="128" height="128"/>
+  <object id="88" gid="24" x="384" y="1280" width="128" height="128"/>
+  <object id="89" gid="24" x="512" y="1280" width="128" height="128"/>
+  <object id="90" gid="20" x="128" y="1152" width="128" height="128"/>
+  <object id="91" gid="20" x="256" y="1152" width="128" height="128"/>
+  <object id="92" gid="20" x="384" y="1152" width="128" height="128"/>
+  <object id="93" gid="20" x="512" y="1152" width="128" height="128"/>
+  <object id="94" gid="25" x="128" y="1024" width="128" height="128"/>
+  <object id="95" gid="25" x="256" y="1024" width="128" height="128"/>
+  <object id="96" gid="25" x="256" y="1024" width="128" height="128"/>
+  <object id="97" gid="25" x="256" y="1024" width="128" height="128"/>
+  <object id="98" gid="25" x="384" y="1024" width="128" height="128"/>
+  <object id="99" gid="25" x="512" y="1024" width="128" height="128"/>
+  <object id="100" gid="17" x="128" y="896" width="128" height="128"/>
+  <object id="101" gid="22" x="256" y="896" width="128" height="128"/>
+  <object id="102" gid="26" x="384" y="896" width="128" height="128"/>
+  <object id="103" gid="17" x="512" y="896" width="128" height="128"/>
  </objectgroup>
 </map>
