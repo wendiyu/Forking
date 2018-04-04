@@ -1,7 +1,11 @@
 -----------------------------------------------------------------------------------------
 --
--- level1.lua
+-- level0.lua
 --
+-- Created by: Mr. Coxall
+-- Created on: Apr 2018
+-- 
+-- This file is level 0
 -----------------------------------------------------------------------------------------
 
 local composer = require( "composer" )
@@ -41,7 +45,7 @@ function scene:create( event )
 	
 	-- make a crate (off-screen), position it, and rotate slightly
 	local crate = display.newImageRect( "crate.png", 90, 90 )
-	crate.x, crate.y = 160, -100
+	crate.x, crate.y = 1260, -100
 	crate.rotation = 15
 	
 	-- add physics to the crate
