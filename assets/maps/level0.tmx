@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" backgroundcolor="#00000000" nextobjectid="86">
+ <tileset firstgid="1" name="desert" tilewidth="1280" tileheight="960" tilecount="31" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image width="145" height="88" source="../sprites/desert/Objects/Bush1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="131" height="74" source="../sprites/desert/Objects/Bush2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="108" height="111" source="../sprites/desert/Objects/Cactus1.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="45" source="../sprites/desert/Objects/Cactus2.png"/>
+  </tile>
+  <tile id="5">
+   <image width="86" height="96" source="../sprites/desert/Objects/Cactus3.png"/>
+  </tile>
+  <tile id="6">
+   <image width="101" height="101" source="../sprites/desert/Objects/Crate.png"/>
+  </tile>
+  <tile id="7">
+   <image width="102" height="50" source="../sprites/desert/Objects/Grass1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="102" height="50" source="../sprites/desert/Objects/Grass2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="85" height="88" source="../sprites/desert/Objects/Sign.png"/>
+  </tile>
+  <tile id="10">
+   <image width="84" height="87" source="../sprites/desert/Objects/SignArrow.png"/>
+  </tile>
+  <tile id="11">
+   <image width="150" height="51" source="../sprites/desert/Objects/Skeleton.png"/>
+  </tile>
+  <tile id="12">
+   <image width="124" height="73" source="../sprites/desert/Objects/Stone.png"/>
+  </tile>
+  <tile id="13">
+   <image width="101" height="99" source="../sprites/desert/Objects/StoneBlock.png"/>
+  </tile>
+  <tile id="14">
+   <image width="313" height="260" source="../sprites/desert/Objects/Tree.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert1.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert2.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert3.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert4.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert5.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert6.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert7.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert8.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert9.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert10.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert11.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert12.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../sprites/desert/Tile/desert13.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="93" source="../sprites/desert/Tile/desert14.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="93" source="../sprites/desert/Tile/desert15.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="93" source="../sprites/desert/Tile/desert16.png"/>
+  </tile>
+  <tile id="31">
+   <image width="1280" height="960" source="../sprites/desert/desertBG.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background">
+  <object id="3" gid="32" x="1280" y="896" width="1280" height="960"/>
+  <object id="4" gid="32" x="2560" y="896" width="1280" height="960"/>
+  <object id="5" gid="32" x="3840" y="896" width="1280" height="960"/>
+  <object id="6" gid="32" x="5120" y="896" width="1280" height="960"/>
+  <object id="63" gid="32" x="0" y="896" width="1280" height="960"/>
+  <object id="68" gid="24" x="128" y="1280" width="128" height="128"/>
+  <object id="69" gid="24" x="256" y="1280" width="128" height="128"/>
+  <object id="70" gid="24" x="384" y="1280" width="128" height="128"/>
+  <object id="71" gid="24" x="512" y="1280" width="128" height="128"/>
+  <object id="72" gid="20" x="128" y="1152" width="128" height="128"/>
+  <object id="73" gid="20" x="256" y="1152" width="128" height="128"/>
+  <object id="74" gid="20" x="384" y="1152" width="128" height="128"/>
+  <object id="75" gid="20" x="512" y="1152" width="128" height="128"/>
+  <object id="76" gid="25" x="128" y="1024" width="128" height="128"/>
+  <object id="77" gid="25" x="256" y="1024" width="128" height="128"/>
+  <object id="78" gid="25" x="384" y="1024" width="128" height="128"/>
+  <object id="79" gid="25" x="512" y="1024" width="128" height="128"/>
+  <object id="81" gid="18" x="128" y="896" width="128" height="128"/>
+  <object id="82" gid="16" x="256" y="896" width="128" height="128"/>
+  <object id="83" gid="17" x="384" y="896" width="128" height="128"/>
+  <object id="85" gid="18" x="512" y="896" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup name="middleground" visible="0"/>
+ <objectgroup name="forground">
+  <object id="64" gid="27" x="0" y="1280" width="128" height="128"/>
+  <object id="65" gid="19" x="0" y="1152" width="128" height="128"/>
+  <object id="66" gid="19" x="0" y="1024" width="128" height="128"/>
+  <object id="67" gid="16" x="0" y="896" width="128" height="128"/>
+ </objectgroup>
+</map>
