@@ -115,7 +115,7 @@ local function onlevel8Release()
 end
 
 -- 'onRelease' event listener for level9
-local function onlevel0Release()
+local function onlevel9Release()
 	
 	-- go to level9.lua scene
 	composer.gotoScene( ".levels.level9", "fade", 500 )
@@ -224,16 +224,16 @@ function scene:create( event )
 	-- e.g. add display objects to 'sceneGroup', add touch listeners, etc.
 
 	-- display a background image
-	local background = display.newImageRect( "background.jpg", display.actualContentWidth, display.actualContentHeight )
+	local background = display.newImageRect( "./assets/sprites/menu/background.jpg", display.actualContentWidth, display.actualContentHeight )
 	background.anchorX = 0
 	background.anchorY = 0
 	background.x = 0 + display.screenOriginX 
 	background.y = 0 + display.screenOriginY
 	
 	-- create/position logo/title image on upper-half of the screen
-	local titleLogo = display.newImageRect( "logo.png", 264, 42 )
-	titleLogo.x = display.contentCenterX
-	titleLogo.y = 100
+	--local titleLogo = display.newImageRect( "./assets/sprites/menu/logo.png", 264, 42 )
+	--titleLogo.x = display.contentCenterX
+	--titleLogo.y = 100
 	
 	-- create a level buttons
 	level0 = widget.newButton{
@@ -474,7 +474,7 @@ function scene:create( event )
 	
 	-- all display objects must be inserted into group
 	sceneGroup:insert( background )
-	sceneGroup:insert( titleLogo )
+	--sceneGroup:insert( titleLogo )
 	sceneGroup:insert( level0 )
 	sceneGroup:insert( level1 )
 	sceneGroup:insert( level2 )
