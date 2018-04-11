@@ -19,6 +19,7 @@ local widget = require "widget"
 -- forward declarations and other locals
 local level0
 local level4
+local level5
 
 -- 'onRelease' event listener for level0
 local function onlevel0Release()
@@ -28,7 +29,7 @@ local function onlevel0Release()
 	
 	return true	-- indicates successful touch
 end
-
+	
 -- 'onRelease' event listener for level1
 local function onlevel1Release()
 	
