@@ -18,6 +18,7 @@ local widget = require "widget"
 
 -- forward declarations and other locals
 local level0
+local level1
 local level4
 local level5
 
@@ -166,6 +167,15 @@ local function onlevel15Release()
 end
 
 
+
+-- 'onRelease' event listener for level1
+local function onlevel1Release()
+	
+	-- go to level1.lua scene
+	composer.gotoScene( ".levels.level1", "fade", 500 )
+	
+	return true	-- indicates successful touch
+end
 
 function scene:create( event )
 	local sceneGroup = self.view
