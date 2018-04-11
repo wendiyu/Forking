@@ -28,6 +28,7 @@ local function onlevel0Release()
 	return true	-- indicates successful touch
 end
 
+
 local function onlevel5Release()
 	
 	-- go to level5.lua scene
@@ -35,6 +36,7 @@ local function onlevel5Release()
 	
 	return true	-- indicates successful touch
 end
+
 
 function scene:create( event )
 	local sceneGroup = self.view
