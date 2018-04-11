@@ -259,12 +259,12 @@
   <object id="317" gid="8" x="4797" y="1285" width="102" height="50"/>
   <object id="318" gid="8" x="5185" y="1285" width="102" height="50"/>
   <object id="319" gid="8" x="5313" y="1285" width="102" height="50"/>
-  <object id="320" gid="29" x="5632" y="994" width="128" height="93"/>
-  <object id="321" gid="30" x="5764" y="990" width="128" height="93"/>
-  <object id="322" gid="30" x="5892" y="994" width="128" height="93"/>
-  <object id="324" gid="30" x="6148" y="990" width="128" height="93"/>
-  <object id="325" gid="30" x="6020" y="990" width="128" height="93"/>
-  <object id="327" gid="31" x="6276" y="990" width="128" height="93"/>
+  <object id="320" gid="29" x="5634" y="986" width="128" height="93"/>
+  <object id="321" gid="30" x="5762" y="986" width="128" height="93"/>
+  <object id="322" gid="30" x="5890" y="988" width="128" height="93"/>
+  <object id="324" gid="30" x="6144" y="990" width="128" height="93"/>
+  <object id="325" gid="30" x="6016" y="990" width="128" height="93"/>
+  <object id="327" gid="31" x="6272" y="990" width="128" height="93"/>
   <object id="328" gid="4" x="5606" y="1283" width="108" height="111"/>
   <object id="329" gid="6" x="6313" y="1280" width="86" height="96"/>
   <object id="330" gid="15" x="6040" y="1286" width="313" height="260"/>
