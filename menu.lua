@@ -23,7 +23,15 @@ local level2
 local level4
 local level5
 local level6
+local level7
+local level8
+local level9
+local level10
+local level11
+local level12
+local level13
 local level14
+local level15
 
 -- 'onRelease' event listener for level0
 local function onlevel0Release()
