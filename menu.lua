@@ -18,6 +18,7 @@ local widget = require "widget"
 
 -- forward declarations and other locals
 local level0
+local level4
 
 -- 'onRelease' event listener for level0
 local function onlevel0Release()
