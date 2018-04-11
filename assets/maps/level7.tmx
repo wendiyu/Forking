@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="62">
+ <tileset firstgid="1" name="level7" tilewidth="1800" tileheight="893" tilecount="19" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="93" source="../../../PlatformerTutorial/assets/Sprites/14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="93" source="../../../PlatformerTutorial/assets/Sprites/15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="93" source="../../../PlatformerTutorial/assets/Sprites/16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="99" source="../../../PlatformerTutorial/assets/Sprites/17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/18.png"/>
+  </tile>
+  <tile id="18">
+   <image width="1800" height="893" source="../../../PlatformerTutorial/assets/Sprites/background.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="foreground layer">
+  <object id="4" gid="5" x="0.5" y="1280.5" width="128" height="128"/>
+  <object id="5" gid="5" x="128.5" y="1280.5" width="128" height="128"/>
+  <object id="6" gid="5" x="256" y="1280" width="128" height="128"/>
+  <object id="7" gid="5" x="511.5" y="1280.5" width="128" height="128"/>
+  <object id="8" gid="5" x="383.75" y="1280" width="128" height="128"/>
+  <object id="9" gid="5" x="639" y="1280" width="128" height="128"/>
+  <object id="12" gid="5" x="894.5" y="1280.5" width="128" height="128"/>
+  <object id="13" gid="5" x="766.5" y="1280.5" width="128" height="128"/>
+  <object id="15" gid="5" x="1022" y="1280" width="128" height="128"/>
+  <object id="16" gid="1" x="0" y="1152.5" width="128" height="128"/>
+  <object id="17" gid="2" x="127.5" y="1153" width="128" height="129"/>
+  <object id="18" gid="2" x="256" y="1152" width="128" height="128"/>
+  <object id="19" gid="2" x="383.75" y="1152.25" width="128" height="128.25"/>
+  <object id="20" gid="2" x="512" y="1152" width="128" height="128"/>
+  <object id="21" gid="2" x="1024" y="1152" width="128" height="128"/>
+  <object id="22" gid="2" x="896.5" y="1152" width="128" height="128"/>
+  <object id="23" gid="2" x="768" y="1152" width="128" height="128"/>
+  <object id="24" gid="2" x="640.5" y="1152" width="128" height="128"/>
+  <object id="26" gid="5" x="1916.08" y="1280.73" width="128" height="128"/>
+  <object id="28" gid="5" x="1150.08" y="1280.73" width="128" height="128"/>
+  <object id="29" gid="5" x="2043.58" y="1280.23" width="128" height="128"/>
+  <object id="33" gid="2" x="1149.08" y="1153.23" width="128" height="129"/>
+  <object id="37" gid="2" x="1918.08" y="1152.23" width="128" height="128"/>
+  <object id="38" gid="2" x="2045.58" y="1152.23" width="128" height="128"/>
+  <object id="41" gid="5" x="2810.75" y="1282.25" width="128" height="128"/>
+  <object id="42" gid="5" x="2938.75" y="1282.25" width="128" height="128"/>
+  <object id="43" gid="5" x="2555.75" y="1282.25" width="128" height="128"/>
+  <object id="44" gid="5" x="2172.75" y="1282.25" width="128" height="128"/>
+  <object id="45" gid="5" x="3066.25" y="1281.75" width="128" height="128"/>
+  <object id="46" gid="5" x="2683.25" y="1281.75" width="128" height="128"/>
+  <object id="47" gid="5" x="2428" y="1281.75" width="128" height="128"/>
+  <object id="48" gid="5" x="2300.25" y="1281.75" width="128" height="128"/>
+  <object id="49" gid="2" x="2171.75" y="1154.75" width="128" height="129"/>
+  <object id="50" gid="2" x="2428" y="1154" width="128" height="128.25"/>
+  <object id="51" gid="2" x="2684.75" y="1153.75" width="128" height="128"/>
+  <object id="52" gid="2" x="2812.25" y="1153.75" width="128" height="128"/>
+  <object id="53" gid="2" x="2940.75" y="1153.75" width="128" height="128"/>
+  <object id="54" gid="2" x="3068.25" y="1153.75" width="128" height="128"/>
+  <object id="55" gid="2" x="2556.25" y="1153.75" width="128" height="128"/>
+  <object id="56" gid="2" x="2300.25" y="1153.75" width="128" height="128"/>
+  <object id="57" gid="16" x="1737.5" y="894" width="128" height="93"/>
+  <object id="58" gid="1073741840" x="1484" y="801" width="128" height="93" rotation="180"/>
+  <object id="59" gid="15" x="1482.5" y="893.5" width="128" height="93"/>
+  <object id="60" gid="15" x="1610.5" y="894" width="128" height="93"/>
+ </objectgroup>
+</map>
