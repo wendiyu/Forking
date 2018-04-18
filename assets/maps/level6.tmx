@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="1000" height="20" tilewidth="128" tileheight="128" infinite="0" nextobjectid="65">
+ <tileset firstgid="1" name="level6" tilewidth="129" tileheight="129" tilecount="18" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../sprites/summer/tile/block1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../sprites/summer/tile/block2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../sprites/summer/tile/block3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="129" height="129" source="../sprites/summer/tile/block4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../sprites/summer/tile/block6.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../sprites/summer/tile/block7.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../sprites/summer/tile/block8.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../sprites/summer/tile/block9.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../sprites/summer/tile/block10.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../sprites/summer/tile/block11.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../sprites/summer/tile/block12.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../sprites/summer/tile/block13.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../sprites/summer/tile/block14.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge1.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="93" source="../sprites/summer/tile/ledge2.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="99" source="../sprites/summer/tile/water.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../sprites/summer/tile/water2.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background">
+  <object id="25" gid="1" x="0.333333" y="1280.33" width="128" height="128"/>
+  <object id="27" gid="2" x="128.333" y="1280.33" width="128" height="128"/>
+  <object id="28" gid="2" x="255.667" y="1280.33" width="128" height="128"/>
+  <object id="29" gid="2" x="383.667" y="1280.33" width="128" height="128"/>
+  <object id="32" gid="2" x="511.667" y="1280.33" width="128" height="128"/>
+  <object id="33" gid="2" x="639.667" y="1280.33" width="128" height="128"/>
+  <object id="35" gid="2" x="767.667" y="1280" width="128" height="128"/>
+  <object id="38" gid="2" x="895.667" y="1280.33" width="128" height="128"/>
+  <object id="40" gid="2" x="1023" y="1280.33" width="128" height="128"/>
+  <object id="43" gid="2" x="1151" y="1280.33" width="128" height="128"/>
+  <object id="44" gid="2" x="1279" y="1280" width="128" height="128"/>
+  <object id="46" gid="2" x="1536" y="1536.5" width="128" height="128"/>
+  <object id="47" gid="2" x="1664.5" y="1536.5" width="128" height="128"/>
+  <object id="48" gid="2" x="1793" y="1536.5" width="128" height="128"/>
+  <object id="49" gid="2" x="1921" y="1536.5" width="128" height="128"/>
+  <object id="50" gid="2" x="2049" y="1536.33" width="128" height="128"/>
+  <object id="51" gid="2" x="2176.33" y="1536" width="128" height="128"/>
+  <object id="52" gid="2" x="2304.33" y="1536.33" width="128" height="128"/>
+  <object id="55" gid="2" x="2432.67" y="1536.67" width="128" height="128"/>
+  <object id="56" gid="2" x="2560.67" y="1536" width="128" height="128"/>
+  <object id="57" gid="2" x="1792.67" y="1024.67" width="128" height="128"/>
+  <object id="58" gid="2" x="1920.67" y="1024" width="128" height="128"/>
+  <object id="60" gid="2" x="2176" y="1024.67" width="128" height="128"/>
+  <object id="62" gid="2" x="2048.33" y="1024.33" width="128" height="128"/>
+  <object id="63" gid="2" x="2304.33" y="1024.33" width="128" height="128"/>
+  <object id="64" gid="2" x="2432.33" y="1024.67" width="128" height="128"/>
+ </objectgroup>
+</map>
