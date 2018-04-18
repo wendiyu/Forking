@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" nextobjectid="72">
+ <tileset firstgid="1" name="level8Tileset" tilewidth="357" tileheight="464" tilecount="37" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="177" height="238" source="../sprites/Space/Objects/Barrel1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="177" height="238" source="../sprites/Space/Objects/Barrel2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="256" height="256" source="../sprites/Space/Objects/Box.png"/>
+  </tile>
+  <tile id="3">
+   <image width="280" height="464" source="../sprites/Space/Objects/DoorLocked.png"/>
+  </tile>
+  <tile id="4">
+   <image width="280" height="464" source="../sprites/Space/Objects/DoorOpen.png"/>
+  </tile>
+  <tile id="5">
+   <image width="281" height="464" source="../sprites/Space/Objects/DoorUnlocked.png"/>
+  </tile>
+  <tile id="6">
+   <image width="357" height="361" source="../sprites/Space/Objects/Saw.png"/>
+  </tile>
+  <tile id="7">
+   <image width="72" height="257" source="../sprites/Space/Objects/Switch1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="72" height="257" source="../sprites/Space/Objects/Switch2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Acid1.png"/>
+  </tile>
+  <tile id="10">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Acid2.png"/>
+  </tile>
+  <tile id="11">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile1.png"/>
+  </tile>
+  <tile id="12">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile2.png"/>
+  </tile>
+  <tile id="13">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile3.png"/>
+  </tile>
+  <tile id="14">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile4.png"/>
+  </tile>
+  <tile id="15">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile5.png"/>
+  </tile>
+  <tile id="16">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile6.png"/>
+  </tile>
+  <tile id="17">
+   <image width="256" height="256" source="../sprites/Space/Tiles/BGTile7.png"/>
+  </tile>
+  <tile id="18">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Fence1.png"/>
+  </tile>
+  <tile id="19">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Fence2.png"/>
+  </tile>
+  <tile id="20">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Fence3.png"/>
+  </tile>
+  <tile id="21">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Spike.png"/>
+  </tile>
+  <tile id="22">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile2.png"/>
+  </tile>
+  <tile id="24">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile3.png"/>
+  </tile>
+  <tile id="25">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile4.png"/>
+  </tile>
+  <tile id="26">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile5.png"/>
+  </tile>
+  <tile id="27">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile6.png"/>
+  </tile>
+  <tile id="28">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile7.png"/>
+  </tile>
+  <tile id="29">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile8.png"/>
+  </tile>
+  <tile id="30">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile9.png"/>
+  </tile>
+  <tile id="31">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile10.png"/>
+  </tile>
+  <tile id="32">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile11.png"/>
+  </tile>
+  <tile id="33">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile12.png"/>
+  </tile>
+  <tile id="34">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile13.png"/>
+  </tile>
+  <tile id="35">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile14.png"/>
+  </tile>
+  <tile id="36">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Tile15.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background"/>
+ <objectgroup name="middleground"/>
+ <objectgroup name="forgrounnd">
+  <object id="13" gid="23" x="0" y="1408" width="256" height="256"/>
+  <object id="14" gid="23" x="256" y="1408" width="256" height="256"/>
+  <object id="17" gid="23" x="512" y="1408" width="256" height="256"/>
+  <object id="19" gid="23" x="768" y="1408" width="256" height="256"/>
+  <object id="20" gid="23" x="1024" y="1408" width="256" height="256"/>
+  <object id="21" gid="23" x="1280" y="1408" width="256" height="256"/>
+  <object id="22" gid="23" x="1536" y="1408" width="256" height="256"/>
+  <object id="23" gid="23" x="1792" y="1408" width="256" height="256"/>
+  <object id="24" gid="23" x="2048" y="1408" width="256" height="256"/>
+  <object id="26" gid="26" x="0" y="1664" width="256" height="256"/>
+  <object id="28" gid="26" x="256" y="1664" width="256" height="256"/>
+  <object id="29" gid="26" x="512" y="1664" width="256" height="256"/>
+  <object id="31" gid="26" x="768" y="1664" width="256" height="256"/>
+  <object id="33" gid="26" x="1024" y="1664" width="256" height="256"/>
+  <object id="34" gid="26" x="1280" y="1664" width="256" height="256"/>
+  <object id="36" gid="26" x="1536" y="1664" width="256" height="256"/>
+  <object id="37" gid="26" x="1792" y="1664" width="256" height="256"/>
+  <object id="38" gid="26" x="2048" y="1664" width="256" height="256"/>
+  <object id="39" gid="26" x="0" y="1920" width="256" height="256"/>
+  <object id="40" gid="26" x="256" y="1920" width="256" height="256"/>
+  <object id="41" gid="26" x="512" y="1920" width="256" height="256"/>
+  <object id="42" gid="26" x="768" y="1920" width="256" height="256"/>
+  <object id="43" gid="26" x="1024" y="1920" width="256" height="256"/>
+  <object id="44" gid="26" x="1280" y="1920" width="256" height="256"/>
+  <object id="45" gid="26" x="1536" y="1920" width="256" height="256"/>
+  <object id="47" gid="26" x="1792" y="1920" width="256" height="256"/>
+  <object id="48" gid="26" x="2048" y="1920" width="256" height="256"/>
+  <object id="54" gid="5" x="0" y="1152" width="280" height="464"/>
+  <object id="57" gid="1" x="1664" y="1152" width="177" height="238"/>
+  <object id="58" gid="1" x="1920" y="1152" width="177" height="238"/>
+  <object id="62" gid="3" x="1280" y="1152" width="256" height="256"/>
+  <object id="63" gid="3" x="2176" y="1152" width="256" height="256"/>
+  <object id="64" gid="23" x="2304" y="1408" width="256" height="256"/>
+  <object id="65" gid="23" x="2560" y="1408" width="256" height="256"/>
+  <object id="66" gid="26" x="2304" y="1664" width="256" height="256"/>
+  <object id="67" gid="26" x="2560" y="1664" width="256" height="256"/>
+  <object id="68" gid="26" x="2304" y="1920" width="256" height="256"/>
+  <object id="69" gid="26" x="2560" y="1920" width="256" height="256"/>
+ </objectgroup>
+</map>
