@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="1000" height="20" tilewidth="128" tileheight="128" infinite="0" nextobjectid="67">
- <tileset firstgid="1" name="level6" tilewidth="129" tileheight="129" tilecount="18" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="1000" height="20" tilewidth="128" tileheight="128" infinite="0" nextobjectid="131">
+ <tileset firstgid="1" name="level6" tilewidth="1000" tileheight="750" tilecount="33" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../sprites/summer/tile/block1.png"/>
@@ -56,8 +56,64 @@
   <tile id="17">
    <image width="128" height="128" source="../sprites/summer/tile/water2.png"/>
   </tile>
+  <tile id="18">
+   <image width="1000" height="750" source="../sprites/summer/background/summerBackground.png"/>
+  </tile>
+  <tile id="19">
+   <image width="133" height="65" source="../sprites/summer/objects/Bush1.png"/>
+  </tile>
+  <tile id="20">
+   <image width="133" height="65" source="../sprites/summer/objects/Bush2.png"/>
+  </tile>
+  <tile id="21">
+   <image width="73" height="47" source="../sprites/summer/objects/Bush3.png"/>
+  </tile>
+  <tile id="22">
+   <image width="73" height="46" source="../sprites/summer/objects/Bush4.png"/>
+  </tile>
+  <tile id="23">
+   <image width="77" height="77" source="../sprites/summer/objects/Crate.png"/>
+  </tile>
+  <tile id="24">
+   <image width="49" height="41" source="../sprites/summer/objects/Mushroom1.png"/>
+  </tile>
+  <tile id="25">
+   <image width="50" height="41" source="../sprites/summer/objects/Mushroom2.png"/>
+  </tile>
+  <tile id="26">
+   <image width="63" height="65" source="../sprites/summer/objects/Sign1.png"/>
+  </tile>
+  <tile id="27">
+   <image width="62" height="64" source="../sprites/summer/objects/Sign2.png"/>
+  </tile>
+  <tile id="28">
+   <image width="90" height="54" source="../sprites/summer/objects/Stone.png"/>
+  </tile>
+  <tile id="29">
+   <image width="116" height="44" source="../sprites/summer/objects/Tree1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="282" height="301" source="../sprites/summer/objects/Tree2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="282" height="275" source="../sprites/summer/objects/Tree3.png"/>
+  </tile>
+  <tile id="32">
+   <image width="188" height="238" source="../sprites/blockyLand/door.png"/>
+  </tile>
  </tileset>
  <objectgroup name="background">
+  <object id="68" gid="19" x="4" y="1659" width="2556" height="1654"/>
+  <object id="69" gid="19" x="2560" y="1663" width="2676" height="1662"/>
+  <object id="71" gid="19" x="5232" y="1663" width="2572" height="1662"/>
+  <object id="72" gid="19" x="7804" y="1659" width="2544" height="1658"/>
+  <object id="73" gid="19" x="10344" y="1667" width="2452" height="1662"/>
+  <object id="74" gid="19" x="12800" y="1923" width="2428" height="1666"/>
+  <object id="75" gid="19" x="15228" y="1923" width="2556" height="1658"/>
+  <object id="76" gid="19" x="17784" y="1923" width="2308" height="1662"/>
+  <object id="77" gid="19" x="20088" y="1923" width="2432" height="1662"/>
+ </objectgroup>
+ <objectgroup name="tiled">
   <object id="25" gid="1" x="0.333333" y="1280.33" width="128" height="128"/>
   <object id="27" gid="2" x="128.333" y="1280.33" width="128" height="128"/>
   <object id="28" gid="2" x="255.667" y="1280.33" width="128" height="128"/>
@@ -69,20 +125,41 @@
   <object id="40" gid="2" x="1023" y="1280.33" width="128" height="128"/>
   <object id="43" gid="2" x="1151" y="1280.33" width="128" height="128"/>
   <object id="44" gid="2" x="1279" y="1280" width="128" height="128"/>
-  <object id="46" gid="2" x="1536" y="1536.5" width="128" height="128"/>
-  <object id="47" gid="2" x="1664.5" y="1536.5" width="128" height="128"/>
-  <object id="48" gid="2" x="1793" y="1536.5" width="128" height="128"/>
-  <object id="49" gid="2" x="1921" y="1536.5" width="128" height="128"/>
-  <object id="50" gid="2" x="2049" y="1536.33" width="128" height="128"/>
-  <object id="51" gid="2" x="2176.33" y="1536" width="128" height="128"/>
-  <object id="52" gid="2" x="2304.33" y="1536.33" width="128" height="128"/>
-  <object id="55" gid="2" x="2432.67" y="1536.67" width="128" height="128"/>
-  <object id="56" gid="2" x="2560.67" y="1536" width="128" height="128"/>
   <object id="57" gid="2" x="1792.67" y="1024.67" width="128" height="128"/>
   <object id="58" gid="2" x="1920.67" y="1024" width="128" height="128"/>
   <object id="60" gid="2" x="2176" y="1024.67" width="128" height="128"/>
   <object id="62" gid="2" x="2048.33" y="1024.33" width="128" height="128"/>
   <object id="63" gid="2" x="2304.33" y="1024.33" width="128" height="128"/>
   <object id="64" gid="2" x="2432.33" y="1024.67" width="128" height="128"/>
+  <object id="78" gid="31" x="9" y="1159.33" width="451.333" height="498.333"/>
+  <object id="79" gid="33" x="433.273" y="1152.33" width="188" height="238"/>
+  <object id="80" gid="29" x="643" y="1151" width="90" height="54"/>
+  <object id="82" gid="28" x="655" y="1102" width="104" height="98"/>
+  <object id="90" gid="4" x="-1" y="1408.67" width="129" height="129"/>
+  <object id="93" gid="5" x="254.333" y="1408" width="128" height="128"/>
+  <object id="94" gid="5" x="127.667" y="1408.33" width="128" height="128"/>
+  <object id="95" gid="5" x="382" y="1408" width="128" height="128"/>
+  <object id="96" gid="5" x="510" y="1408.5" width="128" height="128"/>
+  <object id="97" gid="5" x="634.5" y="1408" width="128" height="128"/>
+  <object id="98" gid="5" x="762" y="1408" width="128" height="128"/>
+  <object id="99" gid="5" x="889" y="1407.5" width="128" height="128"/>
+  <object id="100" gid="5" x="1017" y="1408" width="128" height="128"/>
+  <object id="102" gid="5" x="1144" y="1408" width="134.5" height="128"/>
+  <object id="104" gid="5" x="1279" y="1408" width="128" height="128"/>
+  <object id="108" gid="17" x="1412" y="1409" width="128" height="99"/>
+  <object id="109" gid="17" x="1538" y="1409" width="128" height="99"/>
+  <object id="110" gid="17" x="1665" y="1410" width="128" height="99"/>
+  <object id="112" gid="18" x="1408.67" y="1537.33" width="128" height="128"/>
+  <object id="113" gid="18" x="1535.33" y="1536.67" width="128" height="128"/>
+  <object id="115" gid="18" x="1663.33" y="1534" width="128" height="128"/>
+  <object id="119" gid="1" x="1664.33" y="1024" width="128" height="128"/>
+  <object id="120" gid="1" x="1791.67" y="1407.67" width="128" height="128"/>
+  <object id="122" gid="2" x="1919.33" y="1408" width="128" height="128"/>
+  <object id="123" gid="2" x="2047.33" y="1408.33" width="128" height="128"/>
+  <object id="124" gid="2" x="2175" y="1408" width="128" height="128"/>
+  <object id="125" gid="2" x="2303.33" y="1408" width="128" height="128"/>
+  <object id="126" gid="2" x="2431.33" y="1408" width="128" height="128"/>
+  <object id="127" gid="2" x="2559.33" y="1408.33" width="128" height="128"/>
+  <object id="128" gid="2" x="2687" y="1407.5" width="128" height="128"/>
  </objectgroup>
 </map>
