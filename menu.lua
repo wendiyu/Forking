@@ -18,7 +18,20 @@ local widget = require "widget"
 
 -- forward declarations and other locals
 local level0
+local level1
+local level2
 local level4
+local level5
+local level6
+local level7
+local level8
+local level9
+local level10
+local level11
+local level12
+local level13
+local level14
+local level15
 
 -- 'onRelease' event listener for level0
 local function onlevel0Release()
@@ -28,7 +41,7 @@ local function onlevel0Release()
 	
 	return true	-- indicates successful touch
 end
-
+	
 -- 'onRelease' event listener for level1
 local function onlevel1Release()
 	
@@ -102,7 +115,7 @@ local function onlevel8Release()
 end
 
 -- 'onRelease' event listener for level9
-local function onlevel0Release()
+local function onlevel9Release()
 	
 	-- go to level9.lua scene
 	composer.gotoScene( ".levels.level9", "fade", 500 )
@@ -166,6 +179,42 @@ end
 
 
 
+-- 'onRelease' event listener for level1
+local function onlevel1Release()
+	
+	-- go to level1.lua scene
+	composer.gotoScene( ".levels.level1", "fade", 500 )
+	
+	return true	-- indicates successful touch
+end
+
+-- 'onRelease' event listener for level2
+local function onlevel2Release()
+	
+	-- go to level2.lua scene
+	composer.gotoScene( ".levels.level2", "fade", 500 )
+	
+	return true	-- indicates successful touch
+end
+
+
+-- 'onRelease' event listener for level0
+local function onlevel14Release()
+	
+	-- go to level0.lua scene
+	composer.gotoScene( ".levels.level14", "fade", 500 )
+	
+	return true	-- indicates successful touch
+end
+
+local function onlevel6Release()
+	
+	-- go to level0.lua scene
+	composer.gotoScene( ".levels.level6", "fade", 500 )
+	
+	return true	-- indicates successful touch
+end
+
 function scene:create( event )
 	local sceneGroup = self.view
 
@@ -175,16 +224,16 @@ function scene:create( event )
 	-- e.g. add display objects to 'sceneGroup', add touch listeners, etc.
 
 	-- display a background image
-	local background = display.newImageRect( "background.jpg", display.actualContentWidth, display.actualContentHeight )
+	local background = display.newImageRect( "./assets/sprites/menu/background.jpg", display.actualContentWidth, display.actualContentHeight )
 	background.anchorX = 0
 	background.anchorY = 0
 	background.x = 0 + display.screenOriginX 
 	background.y = 0 + display.screenOriginY
 	
 	-- create/position logo/title image on upper-half of the screen
-	local titleLogo = display.newImageRect( "logo.png", 264, 42 )
-	titleLogo.x = display.contentCenterX
-	titleLogo.y = 100
+	--local titleLogo = display.newImageRect( "./assets/sprites/menu/logo.png", 264, 42 )
+	--titleLogo.x = display.contentCenterX
+	--titleLogo.y = 100
 	
 	-- create a level buttons
 	level0 = widget.newButton{
@@ -425,7 +474,7 @@ function scene:create( event )
 	
 	-- all display objects must be inserted into group
 	sceneGroup:insert( background )
-	sceneGroup:insert( titleLogo )
+	--sceneGroup:insert( titleLogo )
 	sceneGroup:insert( level0 )
 	sceneGroup:insert( level1 )
 	sceneGroup:insert( level2 )
