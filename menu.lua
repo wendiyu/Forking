@@ -34,7 +34,6 @@ local level13
 local level14
 local level15
 
-
 -- 'onRelease' event listener for level0
 local function onlevel0Release()
 	
