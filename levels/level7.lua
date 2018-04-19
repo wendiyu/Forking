@@ -89,7 +89,7 @@ function scene:create( event )
 	--local filename = "./assets/maps/winterScene.json"
 	--local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	
-	local filename = "./assets/maps/leve7.json"
+	local filename = "./assets/maps/level7.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "./assets/maps" )	
 	map = tiled.new( mapData, "./assets/sprites" )
