@@ -16,3 +16,4 @@ local composer = require "composer"
 
 -- load menu screen
 composer.gotoScene( "menu" )
+
