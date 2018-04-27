@@ -831,30 +831,6 @@
                  "y":768
                 }, 
                 {
-                 "gid":4,
-                 "height":111,
-                 "id":214,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":108,
-                 "x":1408,
-                 "y":768
-                }, 
-                {
-                 "gid":6,
-                 "height":96,
-                 "id":215,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":86,
-                 "x":1536,
-                 "y":768
-                }, 
-                {
                  "gid":19,
                  "height":128,
                  "id":221,
@@ -1587,18 +1563,6 @@
                  "y":986
                 }, 
                 {
-                 "gid":2,
-                 "height":88,
-                 "id":334,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":145,
-                 "x":5824,
-                 "y":896
-                }, 
-                {
                  "gid":7,
                  "height":101,
                  "id":335,
@@ -1609,54 +1573,6 @@
                  "width":101,
                  "x":5402,
                  "y":1030
-                }, 
-                {
-                 "gid":7,
-                 "height":101,
-                 "id":336,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":101,
-                 "x":5402,
-                 "y":930
-                }, 
-                {
-                 "gid":7,
-                 "height":101,
-                 "id":337,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":101,
-                 "x":5302,
-                 "y":1028
-                }, 
-                {
-                 "gid":6,
-                 "height":96,
-                 "id":338,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":86,
-                 "x":6057,
-                 "y":896
-                }, 
-                {
-                 "gid":5,
-                 "height":45,
-                 "id":340,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":70,
-                 "x":6009,
-                 "y":898
                 }, 
                 {
                  "gid":11,
