@@ -57,7 +57,7 @@
    <image width="128" height="128" source="../../../PlatformerTutorial/assets/Sprites/18.png"/>
   </tile>
   <tile id="18">
-   <image width="1800" height="893" source="../../../PlatformerTutorial/assets/Sprites/background.png"/>
+   <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
   <tile id="19">
    <image width="110" height="110" source="../sprites/blockyLand/crate.png"/>
