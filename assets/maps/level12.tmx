@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#00000000" nextobjectid="352">
- <tileset firstgid="1" name="desert" tilewidth="1280" tileheight="960" tilecount="31" columns="0">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#00000000" nextobjectid="357">
+ <tileset firstgid="1" name="desert" tilewidth="1280" tileheight="960" tilecount="34" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="1">
    <image width="145" height="88" source="../sprites/desert/Objects/Bush1.png"/>
@@ -95,14 +95,25 @@
   <tile id="31">
    <image width="1280" height="960" source="../sprites/desert/desertBG.png"/>
   </tile>
+  <tile id="32">
+   <image width="256" height="256" source="../sprites/Space/Tiles/Spike.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="99" source="../sprites/summer/tile/water.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="../sprites/summer/tile/water2.png"/>
+  </tile>
  </tileset>
  <objectgroup name="background">
-  <object id="3" gid="32" x="1280" y="1272" width="1280" height="1336"/>
+  <object id="3" gid="32" x="1280" y="1280" width="1280" height="1344"/>
   <object id="4" gid="32" x="2560" y="1280" width="1280" height="1344"/>
   <object id="5" gid="32" x="3840" y="1280" width="1280" height="1344"/>
   <object id="6" gid="32" x="5120" y="1280" width="1280" height="1344"/>
   <object id="63" gid="32" x="0" y="1280" width="1280" height="1344"/>
   <object id="351" gid="12" x="3453" y="901" width="150" height="51"/>
+  <object id="352" gid="33" x="1792" y="1280" width="256" height="256"/>
+  <object id="353" gid="33" x="3200" y="1280" width="256" height="256"/>
  </objectgroup>
  <objectgroup name="middleground" visible="0"/>
  <objectgroup name="forground">
