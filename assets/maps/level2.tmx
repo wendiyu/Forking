@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="98">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="159">
  <tileset firstgid="1" name="snow/space" tilewidth="1800" tileheight="893" tilecount="66" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -248,6 +248,124 @@
   <object id="92" gid="26" x="5888" y="1152" width="256" height="256"/>
   <object id="93" gid="26" x="6144" y="1152" width="256" height="256"/>
   <object id="94" gid="37" x="2931.88" y="868.727" width="72" height="257"/>
+  <object id="99" gid="56" x="4632.76" y="774.273" width="211" height="172.788"/>
+  <object id="100" x="4679.71" y="651.106" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="101" x="4673.65" y="645.045" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="102" x="4673.65" y="666.258" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="103" x="4685.77" y="666.258" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="104" x="4667.5" y="666.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="105" x="4667.5" y="666.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="106" x="4684.5" y="655" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="107" x="4684.5" y="654.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="108" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="109" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="110" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="111" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="112" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="113" x="4684.5" y="651" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="114" x="4694" y="655" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="115" x="4694" y="655" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="116" x="4684.5" y="654" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="117" x="4684.5" y="654" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="118" x="4684.5" y="654" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="123" x="4677" y="654.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="124" x="4683" y="653" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="125" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="126" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="127" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="128" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="129" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="130" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="131" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="132" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="133" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="134" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="135" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="136" x="4685" y="650.5" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="137" x="4681.17" y="651.167" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="141" x="4676.5" y="673.167" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="142" x="4684.5" y="655.833" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="143" x="4686.5" y="653.833" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="144" x="4686.5" y="653.833" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="145" x="4686.5" y="653.833" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
  </objectgroup>
  <objectgroup name="forground">
   <object id="4" gid="18" x="0" y="1280" width="256" height="256"/>
@@ -272,5 +390,9 @@
   <object id="39" gid="12" x="1715.33" y="975.333" width="95.3333" height="100.667"/>
   <object id="40" gid="2147483660" x="1503.33" y="975.333" width="108.667" height="101.333"/>
   <object id="97" gid="32" x="5888" y="896" width="280" height="464"/>
+  <object id="151" x="4640.5" y="654.5" width="207" height="87">
+   <text fontfamily="Arial" pixelsize="19" wrap="1" color="#000000">Don't Touch The Water</text>
+  </object>
+  <object id="158" gid="30" x="5708.97" y="1115.97" width="116.394" height="128.909" rotation="130"/>
  </objectgroup>
 </map>
