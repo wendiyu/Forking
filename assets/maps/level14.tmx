@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#00000000" nextobjectid="684">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#00000000" nextobjectid="730">
  <tileset firstgid="1" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -179,7 +179,6 @@
   <object id="660" gid="31" x="1024" y="1280" width="128" height="128"/>
   <object id="668" gid="31" x="2048" y="1024" width="128" height="128"/>
   <object id="670" gid="31" x="2048" y="1280" width="128" height="128"/>
-  <object id="671" gid="17" x="2048" y="1024" width="129" height="129"/>
   <object id="673" gid="17" x="2048" y="1280" width="129" height="129"/>
   <object id="678" gid="30" x="1024" y="896" width="128" height="99"/>
   <object id="680" gid="30" x="2048" y="896" width="128" height="99"/>
@@ -236,5 +235,40 @@
   <object id="679" gid="16" x="1024" y="896" width="128" height="128"/>
   <object id="681" gid="14" x="2048" y="896" width="128" height="128"/>
   <object id="683" gid="17" x="2048" y="1152" width="129" height="129"/>
+  <object id="684" gid="17" x="2048" y="1024" width="129" height="129"/>
+  <object id="686" gid="15" x="2688" y="896" width="128" height="128"/>
+  <object id="687" gid="18" x="2688" y="1024" width="128" height="128"/>
+  <object id="688" gid="18" x="2688" y="1280" width="128" height="128"/>
+  <object id="689" gid="18" x="2688" y="1280" width="128" height="128"/>
+  <object id="690" gid="18" x="2688" y="1152" width="128" height="128"/>
+  <object id="691" gid="18" x="2816" y="1280" width="128" height="128"/>
+  <object id="692" gid="18" x="2816" y="1152" width="128" height="128"/>
+  <object id="693" gid="18" x="2816" y="1024" width="128" height="128"/>
+  <object id="697" gid="18" x="2944" y="1024" width="128" height="128"/>
+  <object id="698" gid="18" x="2944" y="1024" width="128" height="128"/>
+  <object id="699" gid="18" x="2944" y="1280" width="128" height="128"/>
+  <object id="700" gid="18" x="2944" y="1152" width="128" height="128"/>
+  <object id="701" gid="18" x="2944" y="896" width="128" height="128"/>
+  <object id="702" gid="18" x="3072" y="896" width="128" height="128"/>
+  <object id="703" gid="18" x="3200" y="1152" width="128" height="128"/>
+  <object id="704" gid="18" x="3072" y="1152" width="128" height="128"/>
+  <object id="705" gid="18" x="3072" y="1024" width="128" height="128"/>
+  <object id="706" gid="18" x="3200" y="1024" width="128" height="128"/>
+  <object id="707" gid="18" x="3072" y="1280" width="128" height="128"/>
+  <object id="708" gid="18" x="3200" y="1280" width="128" height="128"/>
+  <object id="716" gid="14" x="2816" y="768" width="128" height="128"/>
+  <object id="717" gid="14" x="2944" y="640" width="128" height="128"/>
+  <object id="718" gid="16" x="3072" y="640" width="128" height="128"/>
+  <object id="719" gid="16" x="3200" y="768" width="128" height="128"/>
+  <object id="720" gid="21" x="2816" y="896" width="128" height="128"/>
+  <object id="721" gid="21" x="2944" y="768" width="128" height="128"/>
+  <object id="722" gid="23" x="3072" y="768" width="128" height="128"/>
+  <object id="723" gid="23" x="3200" y="896" width="128" height="128"/>
+  <object id="724" gid="15" x="3328" y="896" width="128" height="128"/>
+  <object id="725" gid="15" x="3456" y="896" width="128" height="128"/>
+  <object id="726" gid="15" x="3584" y="896" width="128" height="128"/>
+  <object id="727" gid="15" x="3712" y="896" width="128" height="128"/>
+  <object id="728" gid="15" x="3840" y="896" width="128" height="128"/>
+  <object id="729" gid="16" x="6272" y="896" width="128" height="128"/>
  </objectgroup>
 </map>
