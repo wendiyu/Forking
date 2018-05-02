@@ -8,7 +8,7 @@
          "objects":[
                 {
                  "gid":32,
-                 "height":1336,
+                 "height":1344,
                  "id":3,
                  "name":"",
                  "rotation":0,
@@ -16,7 +16,7 @@
                  "visible":true,
                  "width":1280,
                  "x":1280,
-                 "y":1272
+                 "y":1280
                 }, 
                 {
                  "gid":32,
@@ -77,6 +77,30 @@
                  "width":150,
                  "x":3453,
                  "y":901
+                }, 
+                {
+                 "gid":33,
+                 "height":256,
+                 "id":352,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":1792,
+                 "y":1280
+                }, 
+                {
+                 "gid":33,
+                 "height":256,
+                 "id":353,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":3200,
+                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1628,7 +1652,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":352,
+ "nextobjectid":357,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.3",
@@ -1646,7 +1670,7 @@
          "margin":0,
          "name":"desert",
          "spacing":0,
-         "tilecount":31,
+         "tilecount":34,
          "tileheight":960,
          "tiles":
             {
@@ -1799,6 +1823,24 @@
                  "image":"..\/sprites\/desert\/desertBG.png",
                  "imageheight":960,
                  "imagewidth":1280
+                },
+             "32":
+                {
+                 "image":"..\/sprites\/Space\/Tiles\/Spike.png",
+                 "imageheight":256,
+                 "imagewidth":256
+                },
+             "33":
+                {
+                 "image":"..\/sprites\/summer\/tile\/water.png",
+                 "imageheight":99,
+                 "imagewidth":128
+                },
+             "34":
+                {
+                 "image":"..\/sprites\/summer\/tile\/water2.png",
+                 "imageheight":128,
+                 "imagewidth":128
                 },
              "4":
                 {
