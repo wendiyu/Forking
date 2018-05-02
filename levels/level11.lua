@@ -1,11 +1,11 @@
 -----------------------------------------------------------------------------------------
 --
--- level6.lua
+-- level14.lua
 --
--- Created by: Wendi Yu
+-- Created by: Mr. Coxall
 -- Created on: Apr 2018
 -- 
--- This file is level 6
+-- This file is level 0
 -----------------------------------------------------------------------------------------
 
 -- Include modules/libraries
@@ -18,7 +18,7 @@ local tiled = require( "com.ponywolf.ponytiled" )
 local json = require( "json" )
 
 -- Name this Scene: note this is a Global variable
-sceneName = "level6_scene"
+sceneName = "level11_scene"
 
 -- Create a new Composer scene
 local scene = composer.newScene( sceneName )
@@ -89,7 +89,7 @@ function scene:create( event )
 	--local filename = "./assets/maps/winterScene.json"
 	--local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	
-	local filename = "./assets/maps/level6.json"
+	local filename = "./assets/maps/level11.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "./assets/maps" )	
 	map = tiled.new( mapData, "./assets/sprites" )
