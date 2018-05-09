@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="159">
- <tileset firstgid="1" name="snow/space" tilewidth="1800" tileheight="893" tilecount="66" columns="0">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="186">
+ <tileset firstgid="1" name="snow/space" tilewidth="1800" tileheight="893" tilecount="68" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="256" height="256" source="../sprites/Space/Tiles/Acid1.png"/>
@@ -200,11 +200,18 @@
   <tile id="79">
    <image width="1800" height="893" source="../sprites/winter/BG/winterBG.png"/>
   </tile>
+  <tile id="80">
+   <image width="900" height="460" source="../sprites/ufo.jpg"/>
+  </tile>
+  <tile id="81">
+   <image width="523" height="484" source="../sprites/ufo.png"/>
+  </tile>
  </tileset>
  <objectgroup name="background">
   <object id="1" gid="80" x="4" y="1288" width="2176" height="1285"/>
   <object id="2" gid="80" x="2180" y="1286" width="2168" height="1285"/>
   <object id="3" gid="80" x="4348" y="1286" width="2056" height="1285"/>
+  <object id="170" gid="79" x="5376" y="1280" width="128" height="128"/>
  </objectgroup>
  <objectgroup name="midground">
   <object id="25" gid="60" x="898" y="976" width="364" height="443.636"/>
@@ -234,8 +241,6 @@
   <object id="68" gid="78" x="4992" y="1152" width="128" height="99"/>
   <object id="69" gid="78" x="5120" y="1152" width="128" height="99"/>
   <object id="70" gid="78" x="5248" y="1152" width="128" height="99"/>
-  <object id="78" gid="66" x="5376" y="1280" width="128" height="128"/>
-  <object id="79" gid="66" x="5504" y="1280" width="128" height="128"/>
   <object id="80" gid="2" x="5632" y="1280" width="256" height="256"/>
   <object id="82" gid="71" x="5376" y="1152" width="128" height="128"/>
   <object id="83" gid="71" x="5504" y="1152" width="128" height="128"/>
@@ -391,8 +396,16 @@
   <object id="40" gid="2147483660" x="1503.33" y="975.333" width="108.667" height="101.333"/>
   <object id="97" gid="32" x="5888" y="896" width="280" height="464"/>
   <object id="151" x="4640.5" y="654.5" width="207" height="87">
-   <text fontfamily="Arial" pixelsize="19" wrap="1" color="#000000">Don't Touch The Water</text>
+   <text fontfamily="Arial" pixelsize="19" wrap="1">Don't Touch The Water</text>
   </object>
-  <object id="158" gid="30" x="5708.97" y="1115.97" width="116.394" height="128.909" rotation="130"/>
+  <object id="158" gid="30" x="5683.01" y="1131.75" width="85.3467" height="128.909" rotation="130"/>
+  <object id="166" gid="58" x="3630" y="467" width="193" height="210"/>
+  <object id="167" gid="82" x="3465" y="696" width="523" height="484"/>
+  <object id="171" gid="79" x="5376" y="1280" width="128" height="128"/>
+  <object id="173" gid="54" x="5496" y="1280" width="145" height="127"/>
+  <object id="178" gid="35" x="3354" y="562" width="243" height="247"/>
+  <object id="180" gid="35" x="3864" y="556" width="243" height="247"/>
+  <object id="181" gid="35" x="3684" y="662" width="243" height="247"/>
+  <object id="183" gid="35" x="3506" y="656" width="243" height="247"/>
  </objectgroup>
 </map>
