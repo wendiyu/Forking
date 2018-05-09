@@ -1495,61 +1495,61 @@
             {
              "0":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/1.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter1.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "1":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/2.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter2.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "10":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/11.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter11.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "11":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/12.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter12.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "12":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/13.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter13.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "13":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/14.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter14.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "14":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/15.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter15.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "15":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/16.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter16.png",
                  "imageheight":93,
                  "imagewidth":128
                 },
              "16":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/17.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter17.png",
                  "imageheight":99,
                  "imagewidth":128
                 },
              "17":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/18.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter18.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -1567,7 +1567,7 @@
                 },
              "2":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/3.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter3.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
@@ -1609,43 +1609,43 @@
                 },
              "3":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/4.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter4.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "4":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/5.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter5.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "5":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/6.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter6.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "6":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/7.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter7.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "7":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/8.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter8.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "8":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/9.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter9.png",
                  "imageheight":128,
                  "imagewidth":128
                 },
              "9":
                 {
-                 "image":"..\/..\/..\/PlatformerTutorial\/assets\/Sprites\/10.png",
+                 "image":"..\/sprites\/winter\/Tiles\/winter10.png",
                  "imageheight":128,
                  "imagewidth":128
                 }
