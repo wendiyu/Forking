@@ -136,8 +136,6 @@
   <object id="6" gid="32" x="5120" y="1280" width="1280" height="1344"/>
   <object id="63" gid="32" x="0" y="1280" width="1280" height="1344"/>
   <object id="351" gid="12" x="3453" y="901" width="150" height="51"/>
-  <object id="352" gid="33" x="1792" y="1280" width="256" height="256"/>
-  <object id="353" gid="33" x="3200" y="1280" width="256" height="256"/>
  </objectgroup>
  <objectgroup name="middleground" visible="0"/>
  <objectgroup name="forground">

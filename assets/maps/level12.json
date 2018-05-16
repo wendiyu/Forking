@@ -77,30 +77,6 @@
                  "width":150,
                  "x":3453,
                  "y":901
-                }, 
-                {
-                 "gid":33,
-                 "height":256,
-                 "id":352,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":1792,
-                 "y":1280
-                }, 
-                {
-                 "gid":33,
-                 "height":256,
-                 "id":353,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":3200,
-                 "y":1280
                 }],
          "opacity":1,
          "type":"objectgroup",
