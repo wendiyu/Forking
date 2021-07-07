@@ -1,11 +1,11 @@
 -----------------------------------------------------------------------------------------
 --
--- level4.lua
+-- level3.lua
 --
--- Created by: Mr. Coxall
+-- Created by: Faiyaz hossain
 -- Created on: Apr 2018
 -- 
--- This file is level 4 
+-- This file is level 3
 -----------------------------------------------------------------------------------------
 
 -- Include modules/libraries
@@ -18,7 +18,7 @@ local tiled = require( "com.ponywolf.ponytiled" )
 local json = require( "json" )
 
 -- Name this Scene: note this is a Global variable
-sceneName = "level4_scene"
+sceneName = "level3_scene"
 
 -- Create a new Composer scene
 local scene = composer.newScene( sceneName )
@@ -89,7 +89,7 @@ function scene:create( event )
 	--local filename = "./assets/maps/winterScene.json"
 	--local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	
-	local filename = "./assets/maps/level4.json"
+	local filename = "./assets/maps/level3.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "./assets/maps" )	
 	map = tiled.new( mapData, "./assets/sprites" )

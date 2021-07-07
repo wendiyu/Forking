@@ -408,32 +408,6 @@ function scene:create( event )
 	level15.x = 1800
 	level15.y = 800
 
-	level16 = widget.newButton{
-		label = "Level 16",
-		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
-		default = "button.png",
-		over = "button-over.png",
-		width = (154*4), 
-		height = (40*4),
-		onRelease = onlevel16Release	-- event listener function
-	}
-	level16.x = 1800
-	level16.y = 1000
-
-	level17 = widget.newButton{
-		label = "Level 17",
-		fontSize = 48*2,
-		labelColor = { default={255}, over={128} },
-		default = "button.png",
-		over = "button-over.png",
-		width = (154*4), 
-		height = (40*4),
-		onRelease = onlevel17Release	-- event listener function
-	}
-	level17.x = 1800
-	level17.y = 1200
-
 	
 	
 	-- all display objects must be inserted into group
@@ -455,8 +429,6 @@ function scene:create( event )
 	sceneGroup:insert( level13 )
 	sceneGroup:insert( level14 )
 	sceneGroup:insert( level15 )
-	sceneGroup:insert( level16 )
-	sceneGroup:insert( level17 )
 end
 
 function scene:show( event )
